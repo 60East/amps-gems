@@ -109,7 +109,7 @@ import json
 import AMPS
 
 
-class sow_bookmark_store:
+class sow_bookmark_store(object):
     def __init__(self, bookmark_client, topic, tracked_client_name):
         """ Class for creating and managing a SOW bookmark store
 
